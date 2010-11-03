@@ -31,7 +31,7 @@
 
 body {
 	background: #000;
-	background: #000 url('/sites/default/themes/dreamwatch/gfx/BodyBg.jpg') no-repeat top center;
+	background: #000 url('/sites/default/themes/firstwatch/gfx/BodyBg.jpg') no-repeat top center;
 	color: #fff;
 	margin: 0;
 	padding: 0;
@@ -42,7 +42,7 @@ a {
 }
 
 a:link, a:visited {
-	color: #bd2d2d;
+	color: #406e12;
 	text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:hover, a:active {
 
 /** header **/
 #header {
-	background: url('/sites/default/themes/dreamwatch/gfx/line.png') no-repeat bottom;
+	background: url('/sites/default/themes/firstwatch/gfx/line.png') no-repeat bottom;
 	height: 129px;
 }
 
@@ -147,7 +147,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #header-blocks ul.menu li a:hover, #header-blocks ul.menu li a:active {
-	color: #bd2d2d;
+	color: #406e12;
 	text-decoration: none;
 }
 
@@ -182,8 +182,8 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content h1, #content h2 {
-	background: url('/sites/default/themes/dreamwatch/gfx/ContentLine.png') no-repeat bottom left;
-	color: #bd2d2d;
+	background: url('/sites/default/themes/firstwatch/gfx/ContentLine.png') no-repeat bottom left;
+	color: #406e12;
 	font-size: 150%;
 	line-height: 150%;
 	margin: 0 0 10px;
@@ -214,7 +214,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products-frontpage .views-row .views-field-title a:hover {
-	color: #bd2d2d;
+	color: #406e12;
 	text-decoration: none;
 }
 
@@ -222,7 +222,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-row, #content .view-id-products_soldout .views-row {
-	background: url('/sites/default/themes/dreamwatch/gfx/ContentLine.png') no-repeat left top;
+	background: url('/sites/default/themes/firstwatch/gfx/ContentLine.png') no-repeat left top;
 	clear: both;
 	float: left;
 	padding: 15px 0;
@@ -234,7 +234,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-id-products_soldout .views-row {
-	background: url('/sites/default/themes/dreamwatch/gfx/sold.jpg') no-repeat right 20px !important;
+	background: url('/sites/default/themes/firstwatch/gfx/sold.jpg') no-repeat right 20px !important;
 }
 
 #content .view-products .imagecache-product_large, #content .view-id-products_soldout .imagecache-product_large {
@@ -263,7 +263,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-title-2, #content .view-id-products_soldout .views-field-title-2 {
-	background: #fff url('/sites/default/themes/dreamwatch/gfx/buttonBg.gif') repeat-x bottom;
+	background: #fff url('/sites/default/themes/firstwatch/gfx/buttonBg.gif') repeat-x bottom;
 	border: 1px solid #b0b0b0;
 	float: right;
 	font-weight: bold;
@@ -272,7 +272,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-title-2:hover, #content .view-id-products_soldout .views-field-title-2:hover {
-	background: #fff url('/sites/default/themes/dreamwatch/gfx/buttonBg.gif') repeat-x top;
+	background: #fff url('/sites/default/themes/firstwatch/gfx/buttonBg.gif') repeat-x top;
 }
 
 #content .view-products .views-field-title-2 a, #content .view-id-products_soldout .views-field-title-2 a {
@@ -438,7 +438,7 @@ div.tabs /* See also the tabs.css file. */
 }
 
 #sidebar-left .view-product-categories span, #sidebar-left ul.menu li {
-	background: url('/sites/default/themes/dreamwatch/gfx/GradientLineHori.png') no-repeat bottom left;
+	background: url('/sites/default/themes/firstwatch/gfx/GradientLineHori.png') no-repeat bottom left;
 	display: block;
 	list-style: none;
 	list-style-image: none;
@@ -459,7 +459,7 @@ div.tabs /* See also the tabs.css file. */
 }
 
 #sidebar-left .view-product-categories a:hover, #sidebar-left ul.menu li a:hover {
-	background: url('/sites/default/themes/dreamwatch/gfx/LeftMenuBg.png') repeat-y;
+	background: url('/sites/default/themes/firstwatch/gfx/LeftMenuBg.png') repeat-y;
 	text-decoration: none;
 }
 
@@ -769,13 +769,13 @@ ul.links li
 }
 
 .block h2.title /* Block title */ {
-	color: #bd2d2d;
+	color: #406e12;
 	font-size: 110%;
 }
 
 
 #sidebar-left .block h2.title /* Block title */ {
-	background: url('/sites/default/themes/dreamwatch/gfx/GradientLineHori.png') no-repeat bottom left;
+	background: url('/sites/default/themes/firstwatch/gfx/GradientLineHori.png') no-repeat bottom left;
 	padding: 0 0 5px;
 }
 

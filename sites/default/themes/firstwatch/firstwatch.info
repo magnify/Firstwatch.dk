@@ -1,9 +1,9 @@
-; $Id: dreamwatch.info,v 1.13.2.1 2009/02/13 06:13:18 johnalbin Exp $
+; $Id: firstwatch.info,v 1.13.2.1 2009/02/13 06:13:18 johnalbin Exp $
 
 
   ; The name and description of the theme used on the admin/build/themes page.
-name        = dreamwatch (standard)
-description = dreamwatch standard theme.
+name        = firstwatch (standard)
+description = firstwatch standard theme.
 
   ; The screenshot used on the admin/build/themes page.
 screenshot = screenshot.png
@@ -30,7 +30,7 @@ stylesheets[all][]   = html-elements.css
 ; stylesheets[all][] = messages.css
 ; stylesheets[all][] = block-editing.css
 ; stylesheets[all][] = wireframes.css
-stylesheets[all][]   = dreamwatch.css
+stylesheets[all][]   = firstwatch.css
 stylesheets[print][] = print.css
   ; To prevent stylesheets of a base theme or of a module from being included in
   ; our sub-theme, we specify it in our .info file (and we don't need to have a
@@ -92,6 +92,6 @@ settings[zen_wireframes]           = 0
 ; Information added by drupal.org packaging script on 2009-02-13
 version = "6.x-1.0"
 core = "6.x"
-project = "dreamwatch"
+project = "firstwatch"
 datestamp = "1234555897"
 

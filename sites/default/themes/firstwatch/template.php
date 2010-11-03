@@ -81,7 +81,7 @@ if (theme_get_setting('_fixed')) {
 /**
  * Implementation of HOOK_theme().
  */
-function dreamwatch_theme(&$existing, $type, $theme, $path) {
+function firstwatch_theme(&$existing, $type, $theme, $path) {
   $hooks = zen_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
@@ -100,7 +100,7 @@ function dreamwatch_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function dreamwatch_preprocess(&$vars, $hook) {
+function firstwatch_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -114,7 +114,7 @@ function dreamwatch_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function dreamwatch_preprocess_page(&$vars, $hook) {
+function firstwatch_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -128,7 +128,7 @@ function dreamwatch_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function dreamwatch_preprocess_node(&$vars, $hook) {
+function firstwatch_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -142,7 +142,7 @@ function dreamwatch_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function dreamwatch_preprocess_comment(&$vars, $hook) {
+function firstwatch_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -156,7 +156,7 @@ function dreamwatch_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function dreamwatch_preprocess_block(&$vars, $hook) {
+function firstwatch_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */

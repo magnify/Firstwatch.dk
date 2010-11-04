@@ -502,6 +502,14 @@ div.tabs /* See also the tabs.css file. */
 	text-decoration: none;
 }
 
+#footer .block.even {
+  float: right;
+}
+
+#footer .block.odd {
+  float: left;
+}
+
 /** closure **/
 #closure-blocks /* Wrapper for any blocks placed in the closure region */
 {

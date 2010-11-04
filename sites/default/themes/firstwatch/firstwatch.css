@@ -503,11 +503,11 @@ div.tabs /* See also the tabs.css file. */
 }
 
 #footer .block.even {
-  float: right;
+  float: left;
 }
 
 #footer .block.odd {
-  float: left;
+  float: right;
 }
 
 /** closure **/

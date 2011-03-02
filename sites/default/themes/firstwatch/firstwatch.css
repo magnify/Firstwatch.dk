@@ -297,6 +297,13 @@ h1#site-name, div#site-name /* The name of the website */
 	width: 165px;
 }
 
+.node-type-product #content .view-products .views-field-field-image-fid,
+.node-type-product #content .view-id-products_soldout .views-field-field-image-fid,
+.node-type-product #content .view-products .views-field-field-image-fid-1,
+.node-type-product #content .view-id-products_soldout .views-field-field-image-fid-1 {
+    float: right;
+}
+
 #content .view-products .views-field-field-image-fid-1, #content .view-id-products_soldout .views-field-field-image-fid-1 {
 	clear: both;
 	float: right;

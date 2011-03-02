@@ -262,6 +262,10 @@ h1#site-name, div#site-name /* The name of the website */
 	text-align: left;
 }
 
+#content .view-products .views-row div label {
+  font-weight: bold;
+}
+
 #content .view-products .views-field-title-2, #content .view-id-products_soldout .views-field-title-2 {
 	background: #fff url('/sites/default/themes/firstwatch/gfx/buttonBg.gif') repeat-x bottom;
 	border: 1px solid #b0b0b0;

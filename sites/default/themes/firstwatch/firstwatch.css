@@ -304,6 +304,10 @@ h1#site-name, div#site-name /* The name of the website */
     float: right;
 }
 
+.node-type-product .views-field-body {
+    margin: 10px 0 0;
+}
+
 #content .view-products .views-field-field-image-fid-1, #content .view-id-products_soldout .views-field-field-image-fid-1 {
 	clear: both;
 	float: right;

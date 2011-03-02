@@ -10,6 +10,7 @@ nbproject
 ._*
 /sites/default/settings.php
 /sites/default/files
+/sites/default/backup_migrate
 /files
 CVS
 *.patch

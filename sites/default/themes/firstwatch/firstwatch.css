@@ -226,7 +226,7 @@ h1#site-name, div#site-name /* The name of the website */
 	clear: both;
 	float: left;
 	padding: 15px 0;
-	width: 85%;
+	width: 98%;
 }
 
 #content .view-products .views-row.views-row-1, #content .view-id-products_soldout .views-row.views-row-1 {
@@ -259,7 +259,7 @@ h1#site-name, div#site-name /* The name of the website */
 #content .view-products .views-field-field-price-value, #content .view-id-products_soldout .views-field-field-price-value {
 	font-weight: bold;
 	margin: 5px 0;
-	text-align: right;
+	text-align: left;
 }
 
 #content .view-products .views-field-title-2, #content .view-id-products_soldout .views-field-title-2 {
@@ -289,13 +289,13 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-field-image-fid, #content .view-id-products_soldout .views-field-field-image-fid {
-	float: left;
+	float: right;
 	width: 165px;
 }
 
 #content .view-products .views-field-field-image-fid-1, #content .view-id-products_soldout .views-field-field-image-fid-1 {
 	clear: both;
-	float: left;
+	float: right;
 	margin: 10px 0 0;
 	width: 165px;
 }
@@ -306,7 +306,7 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-body .field-content {
-	margin:0 0 0 165px;
+	margin: 0 165px 0 0;
 }
 
 #content .view-products .views-field-field-image-fid-2, #content .view-id-products_soldout .views-field-field-image-fid-2 {
@@ -1080,4 +1080,36 @@ form thead th
 div.view div.views-hide,
 div.view:hover div.views-hide {
   display: none !important;
+}
+
+/* Add this and Facebook */
+
+ul.links li.addthis,
+ul.links li.fb_social_like {
+  display: block;
+  float: left;
+  overflow: visible;
+  padding: 0;
+}
+
+ul.links li.addthis {
+  display: block;
+  padding: 2px 10px 0 0;
+}
+
+/* Add this/Facebook on products */
+
+.view-products .views-field-fb-social-like,
+.view-products .views-field-addthis-toolbox {
+  position: absolute;
+}
+
+.view-products .views-field-fb-social-like {
+    right: 25px;
+    top: 4px;
+}
+
+.view-products .views-field-addthis-toolbox {
+    right: 0px;
+    top: 6px;
 }

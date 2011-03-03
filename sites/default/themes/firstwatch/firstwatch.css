@@ -308,15 +308,12 @@ h1#site-name, div#site-name /* The name of the website */
     margin: 10px 0 0;
 }
 
-#content .view-products .views-field-field-image-fid-1 {
+#content .view-products .views-field-field-image-fid-1,
+#content .view-id-products_soldout .views-field-field-image-fid-1 {
 	clear: both;
 	float: right;
 	margin: 10px 0 0;
 	width: 165px;
-}
-
-#content .view-id-products_soldout .views-field-field-image-fid-1 {
-  float: left;
 }
 
 #content .view-products .views-field-field-image-fid-1 .field-item, #content .view-id-products_soldout .views-field-field-image-fid-1 .field-item {

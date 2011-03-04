@@ -297,6 +297,11 @@ h1#site-name, div#site-name /* The name of the website */
 	width: 165px;
 }
 
+#content .view-products .views-row div label,
+#content .view-products-soldout .views-row div label {
+  font-weight: bold;
+}
+
 .node-type-product #content .view-products .views-field-field-image-fid,
 .node-type-product #content .view-id-products_soldout .views-field-field-image-fid,
 .node-type-product #content .view-products .views-field-field-image-fid-1,

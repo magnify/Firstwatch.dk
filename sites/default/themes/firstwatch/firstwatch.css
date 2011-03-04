@@ -257,8 +257,10 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-field-price-value, #content .view-id-products_soldout .views-field-field-price-value {
-	font-weight: bold;
-	margin: 5px 0;
+	float: right;
+  font-size: 115%;
+  font-weight: bold;
+	margin: -28px 0 0;
 	text-align: left;
 }
 

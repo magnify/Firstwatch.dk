@@ -257,11 +257,16 @@ h1#site-name, div#site-name /* The name of the website */
 }
 
 #content .view-products .views-field-field-price-value, #content .view-id-products_soldout .views-field-field-price-value {
-	float: right;
   font-size: 115%;
   font-weight: bold;
 	margin: -28px 0 0;
 	text-align: left;
+}
+
+.node-type-productcategory #content .view-products .views-field-field-price-value,
+.node-type-productcategory #content .view-id-products_soldout .views-field-field-price-value {
+	float: right;
+  margin: 10px 0;
 }
 
 #content .view-products .views-row div label {

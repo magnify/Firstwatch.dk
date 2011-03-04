@@ -294,6 +294,7 @@ h1#site-name, div#site-name /* The name of the website */
 
 #content .view-products .views-field-field-image-fid, #content .view-id-products_soldout .views-field-field-image-fid {
 	float: left;
+  height: 175px;
 	width: 165px;
 }
 

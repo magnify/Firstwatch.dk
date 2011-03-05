@@ -308,6 +308,10 @@ h1#site-name, div#site-name /* The name of the website */
   height: 175px;
 }
 
+.node-type-product #content .view-products .views-field-field-image-fid {
+  height: auto;
+}
+
 #content .view-products .views-row div label,
 #content .view-products-soldout .views-row div label {
   font-weight: bold;

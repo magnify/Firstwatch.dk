@@ -500,6 +500,19 @@ div.tabs /* See also the tabs.css file. */
 	text-decoration: none;
 }
 
+#sidebar-left #block-fb_social_like-like {
+  clear: both;
+  margin: 20px 0 0;
+}
+
+#sidebar-left #block-addthis-0 {
+  margin: 22px 0 0;
+}
+
+#sidebar-left #block-fb_social_like-like, #sidebar-left #block-addthis-0 {
+  float: left;
+}
+
 /** sidebar-right **/
 #sidebar-right
 {

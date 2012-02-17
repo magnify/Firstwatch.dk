@@ -106,6 +106,26 @@ DirectoryIndex index.php
   # uncomment the following line:
   # RewriteBase /
 
+RewriteRule produkter/ure-pa-vej-til-firstwatchdk http://www.dreamwatch.dk/produkter/ure-p-vej-til-dreamwatchdk [R=301,L]
+RewriteRule produkter/kvalitets-ure/tag-heuer-link-chronograph http://www.dreamwatch.dk/produkter/alle-ure/tag-heuer-link-chronograph [R=301,L]
+RewriteRule produkter/kvalitets-ure http://www.dreamwatch.dk/produkter/alle-ure [R=301,L]
+RewriteRule produkter/kvalitets-ure/raymond-weil-freelancer http://www.dreamwatch.dk/produkter/alle-ure/raymond-weil-freelancer [R=301,L]
+RewriteRule produkter/kvalitets-ure/anonimo-cronoscopio-mod-2005 http://www.dreamwatch.dk/produkter/alle-ure/anonimo-cronoscopio-mod-2005 [R=301,L]
+RewriteRule produkter/kvalitets-ure/linde-werdelin-biformeter http://www.dreamwatch.dk/produkter/alle-ure/linde-werdelin-biformeter [R=301,L]
+RewriteRule produkter/tilbehor-til-ure-0 http://www.dreamwatch.dk/produkter/tilbehor-til-ure-0 [R=301,L]
+RewriteRule byt-dit-ur http://www.dreamwatch.dk/byt-dit-ur-0 [R=301,L]
+RewriteRule produkter/kvalitets-ure/azimuth-bombardier-v http://www.dreamwatch.dk/produkter/alle-ure/azimuth-bombardier-v [R=301,L]
+RewriteRule dit-ur-i-kommision http://www.dreamwatch.dk/dit-ur-i-kommision [R=301,L]
+RewriteRule saelg-dit-ur http://www.dreamwatch.dk/saelg-dit-ur [R=301,L]
+RewriteRule referencer http://www.dreamwatch.dk/referencer [R=301,L]
+RewriteRule solgte-ure http://www.dreamwatch.dk/solgte-ure [R=301,L]
+RewriteRule produkter/tilbehor-til-ure/universal-gummiremme-20-mm-22-mm-24-mm http://www.dreamwatch.dk/produkter/tilbeh-r-til-ure/universal-gummiremme-20-mm-22-mm-24-mm [R=301,L]
+RewriteRule produkter/tilbehor-til-ure/fortis-laenke http://www.dreamwatch.dk/produkter/tilbeh-r-til-ure/fortis-l-nke [R=301,L]
+RewriteRule produkter/tilbehor-til-ure/24-mm-paw-marker-rem http://www.dreamwatch.dk/produkter/tilbeh-r-til-ure/24-mm-paw-marker-rem [R=301,L]
+RewriteRule produkter/tilbehor-til-ure/24-mm-rem-uden-spaende http://www.dreamwatch.dk/produkter/tilbeh-r-til-ure/24-mm-rem-uden-sp-nde [R=301,L]
+RewriteRule ^.*$ http://www.dreamwatch.dk/ [R=301,L]
+
+
   # Rewrite URLs of the form 'x' to the form 'index.php?q=x'.
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
